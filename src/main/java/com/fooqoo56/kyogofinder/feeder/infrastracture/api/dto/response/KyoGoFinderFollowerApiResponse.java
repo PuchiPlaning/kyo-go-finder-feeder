@@ -13,6 +13,9 @@ public class KyoGoFinderFollowerApiResponse {
     @JsonProperty("result")
     Result result;
 
+    /**
+     * デフォルトコンストラクタ.
+     */
     public KyoGoFinderFollowerApiResponse() {
         result = new Result();
     }
@@ -23,6 +26,9 @@ public class KyoGoFinderFollowerApiResponse {
         @JsonProperty("userIds")
         List<String> userIds;
 
+        /**
+         * デフォルトコンストラクタ.
+         */
         public Result() {
             userIds = new ArrayList<>();
         }
