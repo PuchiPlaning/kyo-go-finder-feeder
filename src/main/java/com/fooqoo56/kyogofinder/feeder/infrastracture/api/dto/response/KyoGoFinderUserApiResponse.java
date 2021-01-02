@@ -12,6 +12,9 @@ public class KyoGoFinderUserApiResponse {
     @JsonProperty("result")
     Result result;
 
+    /**
+     * デフォルトコンストラクタ.
+     */
     public KyoGoFinderUserApiResponse() {
         result = new Result();
     }
