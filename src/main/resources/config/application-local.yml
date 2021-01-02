@@ -1,0 +1,21 @@
+---
+extension:
+  oauth:
+    twitter:
+      base-url: https://api.twitter.com
+      path: /oauth2/token
+      connect-timeout: 1000
+      read-timeout: 1000
+      api-key: ${API_KEY}
+      api-secret: ${API_SECRET}
+  api:
+    twitter:
+      base-url: https://api.twitter.com
+      path: /2/users/
+      connect-timeout: 1000
+      read-timeout: 1000
+    kyo-go-finder-api:
+      base-url: ${KYO_GO_FINDER_API_HOST}
+      path: /api/v1/user/
+      connect-timeout: 50000
+      read-timeout: 50000
