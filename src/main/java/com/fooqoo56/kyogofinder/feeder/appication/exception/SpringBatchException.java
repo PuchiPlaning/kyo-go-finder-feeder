@@ -12,10 +12,21 @@ public class SpringBatchException extends Exception {
 
     }
 
+    /**
+     * コンストラクタ.
+     *
+     * @param message メッセージ
+     */
     public SpringBatchException(final String message) {
         super(message);
     }
 
+    /**
+     * コンストラクタ.
+     *
+     * @param message メッセージ
+     * @param cause   例外
+     */
     public SpringBatchException(final String message, final Throwable cause) {
         super(message, cause);
     }
